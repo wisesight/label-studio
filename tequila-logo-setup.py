@@ -15,7 +15,7 @@ def main(path: str) -> None:
         port = row["port"]  # 8080
 
         os.system(
-            f"sh tequila-start.sh {email} {password} {user_token} {port} logo{str(idx).zfill(2)}"
+            f"sh tequila-start.sh {email} {password} {user_token} {port} logo{str(idx + 1).zfill(2)}"
         )
 
 
