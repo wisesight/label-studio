@@ -10,7 +10,7 @@ def setup(port: int, token: str):
     ls.check_connection()
 
     project = ls.start_project(
-        title="Logo Bounding Box Annotation",
+        title="Brand Logo Annotation",
         label_config="""
         <View>
         <Image name="image" value="$image" zoom="true"/>
