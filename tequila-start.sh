@@ -17,6 +17,6 @@ if [ "$(docker ps -q -f name=${COMPOSE_PROJECT_NAME}-nginx-1)" ]\
 && [ "$(docker ps -q -f name=${COMPOSE_PROJECT_NAME}-app-1)" ] \
 && [ "$(docker ps -q -f name=${COMPOSE_PROJECT_NAME}-db-1)" ]; then
   echo "All label-studio services have been started..."
-  python3 tequila-logo-create-gov-project.py --port ${NGINX_PORT} --token ${USER_TOKEN}
   python3 tequila-logo-create-brand-project.py --port ${NGINX_PORT} --token ${USER_TOKEN}
+  python3 tequila-logo-create-gov-project.py --port ${NGINX_PORT} --token ${USER_TOKEN}
 fi
