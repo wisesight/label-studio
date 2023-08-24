@@ -14,6 +14,10 @@ def setup(port: int, token: str):
         label_config="""
         <View>
         <Image name="image" value="$image" zoom="true"/>
+        <Filter name="filter" toName="label" hotkey="shift+f" minlength="0" placeholder="Filter"/>
+        <View whenTagName="label" whenChoiceValue="Car">
+            <TextArea name="other-class" toName="image" editable="true" perRegion="true" required="false" rows="1" placeholder="Brand's name" />
+        </View>
         <RectangleLabels name="label" toName="image">
         <Label value="100 Wealth" />
         <Label value="100PLUS" />
@@ -2323,10 +2327,6 @@ def setup(port: int, token: str):
         <Label value="Tesla" />
         <Label value="การท่องเที่ยวแห่งประเทศไทย" />
         </RectangleLabels>
-        <Filter name="filter" toName="label" hotkey="shift+f" minlength="0" placeholder="Filter"/>
-        <View whenTagName="label" whenChoiceValue="Car">
-            <TextArea name="other-class" toName="image" editable="true" perRegion="true" required="false" rows="1" placeholder="Brand's name" />
-        </View>
         </View>
         """,
     )
