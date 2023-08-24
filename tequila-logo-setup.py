@@ -16,7 +16,7 @@ def main(path: str) -> None:
         project_name = row["project_name"]  # Logo Annotation Project
 
         os.system(
-            f"sh tequila-start.sh {project_name} {email} {password} {user_token} {port} logo{str(idx + 1).zfill(2)}"
+            f"sh tequila-start.sh {project_name} {email} {password} {user_token} {port} logo{str(idx).zfill(2)}"
         )
 
 
