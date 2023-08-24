@@ -15,6 +15,7 @@ def setup(port: int, token: str):
         <View>
         <Image name="image" value="$image" zoom="true"/>
         <RectangleLabels name="label" toName="image">
+        <Label value="MCOT / อสมท" />
         <Label value="The Embassy of the United States in Bangkok" />
         <Label value="กรมการพัฒนาชุมชน กระทรวงมหาดไทย" />
         <Label value="กรมกิจการสตรีและสถาบันครอบครัว" />
@@ -24,16 +25,21 @@ def setup(port: int, token: str):
         <Label value="กรมส่งเสริมอุตสาหกรรม" />
         <Label value="กรมสอบสวนคดีพิเศษ" />
         <Label value="กรมสุขภาพจิต กระทรวงสาธารณสุข" />
+        <Label value="กรมอนามัย กระทรวงสาธารณสุข" />
+        <Label value="กระทรวงกลาโหม" />
         <Label value="กระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์" />
         <Label value="กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม" />
         <Label value="กระทรวงยุติธรรม" />
         <Label value="กองทุนบำเหน็จบำนาญข้าราชการ สำนักงานใหญ่" />
         <Label value="กองบัญชาการฐานทัพเรือสัตหีบ" />
+        <Label value="การท่องเที่ยวแห่งประเทศไทย" />
         <Label value="การทางพิเศษแห่งประเทศไทย" />
         <Label value="การประปานครหลวง สำนักงานใหญ่" />
         <Label value="การรถไฟแห่งประเทศไทย" />
         <Label value="คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล" />
         <Label value="คณะวิทยาการเรียนรู้และศึกษาศาสตร์ มหาวิทยาลัยธรรมศาสตร์" />
+        <Label value="ตลาดหลักทรัพย์แห่งประเทศไทย" />
+        <Label value="ธนาคารแห่งประเทศไทย" />
         <Label value="มหาวิทยาลัยศรีนครินทรวิโรฒ" />
         <Label value="สถาบันเพิ่มผลผลิตแห่งชาติ" />
         <Label value="สำนักข่าว กรมประชาสัมพันธ์" />
