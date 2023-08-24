@@ -1,13 +1,11 @@
-echo "PROJECT_NAME=$1" > .env
-echo "USER_EMAIL=$2" >> .env
-echo "USER_PASSWORD=$3" >> .env
-echo "USER_TOKEN=$4" >> .env
-echo "NGINX_PORT=$5" >> .env
-echo "COMPOSE_PROJECT_NAME=$6" >> .env
-export PROJECT_NAME=$1
-export USER_TOKEN=$4
-export NGINX_PORT=$5
-export COMPOSE_PROJECT_NAME=$6
+echo "USER_EMAIL=$1" >> .env
+echo "USER_PASSWORD=$2" >> .env
+echo "USER_TOKEN=$3" >> .env
+echo "NGINX_PORT=$4" >> .env
+echo "COMPOSE_PROJECT_NAME=$5" >> .env
+export USER_TOKEN=$3
+export NGINX_PORT=$4
+export COMPOSE_PROJECT_NAME=$5
 
 # docker compose -f docker-compose.tequila.yaml up --build --force-recreate
 docker compose -f docker-compose.tequila.yaml up -d --build --force-recreate
