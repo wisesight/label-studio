@@ -2,7 +2,7 @@
 
 ## How to run local
 ```sh
-sh tequila-start.sh tequila.internal 12345678 wisesighttoken 8080 logo00
+sh tequila-start.sh tequila.internal@wisesight.com 12345678 wisesighttoken 8080 logo00
 ```
 ## How to deploy in EC2
 - Install requirements
