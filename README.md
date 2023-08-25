@@ -4,7 +4,11 @@
 ```sh
 sh tequila-start.sh tequila.internal 12345678 wisesighttoken 8080 logo00
 ```
-## How to deplo in EC2
+## How to deploy in EC2
+- Install requirements
+```sh
+python3 -m pip install label-studio-sdk pandas
+```
 ```sh
 python tequila-logo-setup.py project-config.csv
 ```
