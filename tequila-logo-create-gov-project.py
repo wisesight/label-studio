@@ -15,7 +15,7 @@ def setup(port: int, token: str):
         <View>
         <Image name="image" value="$image" zoom="true"/>
         <Filter name="filter" toName="label" hotkey="shift+f" minlength="0" placeholder="Filter"/>
-        <View whenTagName="label" whenChoiceValue="Car">
+        <View whenTagName="label" whenChoiceValue="other">
             <TextArea name="other-class" toName="image" editable="true" perRegion="true" required="false" rows="1" placeholder="Brand's name" />
         </View>
         <RectangleLabels name="label" toName="image">
@@ -60,6 +60,7 @@ def setup(port: int, token: str):
         <Label value="สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน)" />
         <Label value="สำนักงานส่งเสริมเศรษฐกิจดิจิทัล" />
         <Label value="สำนักสื่อสารความเสี่ยงและพัฒนาพฤติกรรมสุขภาพ กรมควบคุมโรค" />
+        <Label value="other" />
         </RectangleLabels>
         </View>
         """,
