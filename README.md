@@ -1,5 +1,18 @@
 <img src="https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png"/>
 
+## How to run local
+```sh
+sh tequila-start.sh tequila.internal 12345678 wisesighttoken 8080 logo00
+```
+## How to deplo in EC2
+```sh
+python tequila-logo-setup.py project-config.csv
+```
+
+Please see example of `project-config.csv` format at [Google Sheets](https://docs.google.com/spreadsheets/d/1di8L2D6srypqm7scYAOdOA__BgtK7U5q)
+
+-------------------------------------------------------
+
 ![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/heartexlabs/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
 
 [Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Twitter](https://twitter.com/labelstudiohq) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://slack.labelstud.io/?source=github-1)
