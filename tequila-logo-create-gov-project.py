@@ -19,30 +19,31 @@ def setup(port: int, token: str):
             <TextArea name="other-class" toName="image" editable="true" perRegion="true" required="false" rows="1" placeholder="Brand's name" />
         </View>
         <RectangleLabels name="label" toName="image">
-        <Label value="MCOT / อสมท" />
+        <Label value="MCOT" />
         <Label value="The Embassy of the United States in Bangkok" />
         <Label value="กรมการพัฒนาชุมชน กระทรวงมหาดไทย" />
         <Label value="กรมกิจการสตรีและสถาบันครอบครัว" />
         <Label value="กรมข่าวทหารบก" />
         <Label value="กรมประชาสัมพันธ์" />
         <Label value="กรมพัฒนาธุรกิจการค้า" />
-        <Label value="กรมส่งเสริมอุตสาหกรรม" />
         <Label value="กรมสอบสวนคดีพิเศษ" />
-        <Label value="กรมสุขภาพจิต กระทรวงสาธารณสุข" />
-        <Label value="กรมอนามัย กระทรวงสาธารณสุข" />
+        <Label value="กรมส่งเสริมอุตสาหกรรม" />
         <Label value="กระทรวงกลาโหม" />
         <Label value="กระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์" />
         <Label value="กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม" />
         <Label value="กระทรวงยุติธรรม" />
+        <Label value="กระทรวงสาธารณสุข" />
         <Label value="กองทุนบำเหน็จบำนาญข้าราชการ สำนักงานใหญ่" />
         <Label value="กองบัญชาการฐานทัพเรือสัตหีบ" />
+        <Label value="การทางพิเศษการทางพิเศษแห่งประเทศไทย" />
         <Label value="การท่องเที่ยวแห่งประเทศไทย" />
-        <Label value="การทางพิเศษแห่งประเทศไทย" />
         <Label value="การประปานครหลวง สำนักงานใหญ่" />
         <Label value="การรถไฟแห่งประเทศไทย" />
-        <Label value="คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล" />
         <Label value="คณะวิทยาการเรียนรู้และศึกษาศาสตร์ มหาวิทยาลัยธรรมศาสตร์" />
+        <Label value="คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล" />
         <Label value="ตลาดหลักทรัพย์แห่งประเทศไทย" />
+        <Label value="ธนาคารออมสิน" />
+        <Label value="ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร" />
         <Label value="ธนาคารแห่งประเทศไทย" />
         <Label value="มหาวิทยาลัยศรีนครินทรวิโรฒ" />
         <Label value="สถาบันเพิ่มผลผลิตแห่งชาติ" />
@@ -52,6 +53,7 @@ def setup(port: int, token: str):
         <Label value="สำนักงานคณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคมแห่งชาติ" />
         <Label value="สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล" />
         <Label value="สำนักงานคณะกรรมการสุขภาพแห่งชาติ" />
+        <Label value="สำนักงานตำรวจแห่งชาติ" />
         <Label value="สำนักงานนโยบายและแผนทรัพยากรธรรมชาติและสิ่งแวดล้อม" />
         <Label value="สำนักงานนโยบายและแผนพลังงาน" />
         <Label value="สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์" />
